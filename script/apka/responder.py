@@ -16,53 +16,53 @@ while True:
     out = process.stdout.readline()
     out = out.decode("utf-8").strip()
     if choosenOption is None:
-        if out == 'go':
+        if out == 'VA:CMD:GO':
             menu.readCurrOption()
 
-        elif out == 'right':
+        elif out == 'VA:CMD:RIGHT':
             menu.readNextOption(1)
 
-        elif out == 'left':
+        elif out == 'VA:CMD:LEFT':
             menu.readNextOption(-1)
 
-        elif out == 'on':
+        elif out == 'VA:CMD:ON':
             choosenOption = menu.chooseCurrOption()
 
     elif choosenOption == 'Odtwarzacz muzyki':
-        if out == 'go':
+        if out == 'VA:CMD:GO':
             music.startMusic()
 
-        elif out == 'stop':
+        elif out == 'VA:CMD:STOP':
             choosenOption = music.stopMusic()
 
-        elif out == 'up':
+        elif out == 'VA:CMD:UP':
             music.volumeUp()
 
-        elif out == 'down':
+        elif out == 'VA:CMD:DOWN':
             music.volumeDown()
 
-        elif out == 'right':
+        elif out == 'VA:CMD:RIGHT':
             music.nextSong(1)
 
-        elif out == 'left':
+        elif out == 'VA:CMD:LEFT':
             music.nextSong(-1)
 
-        elif out == 'on':
+        elif out == 'VA:CMD:ON':
             music.unpauseSong()
 
-        elif out == 'off':
+        elif out == 'VA:CMD:OFF':
             music.pauseSong()
 
     elif choosenOption == 'Zobacz pogode':
         pass
 
     elif choosenOption == 'Sprawdź poczte':
-        if out == 'go':
+        if out == 'VA:CMD:GO':
             mail.getMails()
 
-        elif out == 'yes':
+        elif out == 'VA:CMD:YES':
             mail.readMails()
 
-        elif out == 'no':
+        elif out == 'VA:CMD:NO':
             choosenOption = mail.stopReading()
             

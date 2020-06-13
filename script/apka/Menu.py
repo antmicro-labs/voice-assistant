@@ -11,6 +11,7 @@ class Menu:
 
     def readNextOption(self, num):
         self.currOptionNum += num
+	self.currOptionNum %= len(self.mainMenu)
         self.readCurrOption()
 
     def chooseCurrOption(self):
