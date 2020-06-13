@@ -1,0 +1,7 @@
+*.swp
+script/apka/credentials.json
+script/apka/music/
+script/apka/__pycache__/
+script/apka/venv/
+script/apka/token.pickle
+script/apka/.gitignore
