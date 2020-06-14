@@ -2,10 +2,12 @@ from subprocess import Popen, PIPE
 from Menu import Menu
 from MusicHandler import MusicHandler
 from MailHandler import MailHandler
+from WeatherHandler import WeatherHandler
 
 menu = Menu()
 mail = MailHandler()
 music = MusicHandler()
+weather = WeatherHandler()
 
 cmd = "python3 input.py"
 process = Popen(cmd, stdout=PIPE, stderr=PIPE, shell=True, bufsize=1)
@@ -54,7 +56,8 @@ while True:
             music.pauseSong()
 
     elif choosenOption == 'Zobacz pogode':
-        pass
+        if out == 'VA:CMD:GO':
+            weather.getWeather()
 
     elif choosenOption == 'Sprawdź poczte':
         if out == 'VA:CMD:GO':

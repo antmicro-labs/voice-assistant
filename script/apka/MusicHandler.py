@@ -1,6 +1,6 @@
 from pygame import mixer
 
-songs = ['music/Bitamina - Elephnat.mp3', 'music/Bitamina Dawid Podsiadło Nikt (Flirtini Heartbreaks & Promises vol. 4).mp3']
+songs = ['music/Guilt.mp3', 'music/This Is What It Feels Like.mp3']
 
 class MusicHandler:
     def __init__(self):

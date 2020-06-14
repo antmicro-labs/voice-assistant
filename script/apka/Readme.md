@@ -6,8 +6,11 @@ In order to make app work correctly you have to:
 3. Open this link: https://developers.google.com/gmail/api/quickstart/python
 4. Click 'Enable the Gmail API'
 5. Select 'Desktop app' and download client configuration file which have to be placed in the project main folder
-6. Upload some mp3 files to music folder and update list in MusicHandler.py
-7. Invoke python3 responder.py to start application
+6. In MailHandler.py change the 'userID' to your email address
+7. Upload some mp3 files to music folder and update list in MusicHandler.py
+8. Make your own account on https://openweathermap.org/
+9. Get the API key and put it in the 'key' variable in WeatherHandler.py
+10. Invoke python3 responder.py to start application
 
 In input.py file you can find list with mock commands. You can write your own set of instructions and test it.
 

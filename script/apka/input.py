@@ -1,6 +1,6 @@
 import time, sys
 
-commands = ['right', 'right', 'on', 'go', 'yes', 'yes', 'yes', 'no', 'go', 'left', 'left', 'go']
+commands = ['VA:CMD:RIGHT', 'VA:CMD:RIGHT', 'VA:CMD:ON', 'VA:CMD:GO', 'VA:CMD:NO']
 
 i = 0
 while i < len(commands):
