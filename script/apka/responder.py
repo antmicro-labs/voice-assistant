@@ -3,11 +3,13 @@ from Menu import Menu
 from MusicHandler import MusicHandler
 from MailHandler import MailHandler
 from WeatherHandler import WeatherHandler
+from URLHandler import URLHandler
 
 menu = Menu()
 mail = MailHandler()
 music = MusicHandler()
 weather = WeatherHandler()
+urlHandler = URLHandler()
 
 cmd = "python3 input.py"
 process = Popen(cmd, stdout=PIPE, stderr=PIPE, shell=True, bufsize=1)
@@ -30,7 +32,7 @@ while True:
         elif out == 'VA:CMD:ON':
             choosenOption = menu.chooseCurrOption()
 
-    elif choosenOption == 'Odtwarzacz muzyki':
+    elif choosenOption == 'Music player':
         if out == 'VA:CMD:GO':
             music.startMusic()
 
@@ -55,11 +57,15 @@ while True:
         elif out == 'VA:CMD:OFF':
             music.pauseSong()
 
-    elif choosenOption == 'Zobacz pogode':
+    elif choosenOption == 'Current weather':
         if out == 'VA:CMD:GO':
-            weather.getWeather()
+            choosenOption = weather.getWeather()
 
-    elif choosenOption == 'Sprawdź poczte':
+    elif choosenOption == 'Find random recipe':
+        if out == 'VA:CMD:GO':
+            choosenOption = urlHandler.openURL()
+
+    elif choosenOption == 'Check emails':
         if out == 'VA:CMD:GO':
             mail.getMails()
 
@@ -68,4 +74,4 @@ while True:
 
         elif out == 'VA:CMD:NO':
             choosenOption = mail.stopReading()
-            
+        

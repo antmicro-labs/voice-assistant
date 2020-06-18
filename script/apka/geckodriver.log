@@ -1,0 +1,161 @@
+1592507200833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dCuopIPC2uxQ"
+1592507204184	Marionette	INFO	Listening on port 41631
+1592507204242	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592507222310	Marionette	INFO	Stopped listening on port 41631
+1592508190119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RYpFbgQzgIyy"
+1592508193185	Marionette	INFO	Listening on port 38817
+1592508193232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508201323	Marionette	INFO	Stopped listening on port 38817
+1592508210646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kLQKWVtYgkdT"
+1592508213857	Marionette	INFO	Listening on port 36089
+1592508213871	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508232021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K80W95eVXvP1"
+1592508235269	Marionette	INFO	Listening on port 37883
+1592508235331	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508245439	Marionette	INFO	Stopped listening on port 36089
+1592508283592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6FKwmap5CRM8"
+1592508286747	Marionette	INFO	Listening on port 44227
+1592508286805	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508428826	Marionette	INFO	Stopped listening on port 44227
+1592508430418	Marionette	INFO	Stopped listening on port 37883
+1592508450329	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dRTjJGXl5fJ0"
+1592508453434	Marionette	INFO	Listening on port 44201
+1592508453456	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508555269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.pTd7zMDvEQpY"
+1592508558425	Marionette	INFO	Listening on port 44921
+1592508558478	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508567880	Marionette	INFO	Stopped listening on port 44921
+1592508599190	Marionette	INFO	Stopped listening on port 44201
+1592508708638	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zN1XrLMLzcIQ"
+1592508711713	Marionette	INFO	Listening on port 36365
+1592508711762	Marionette	WARN	TLS certificate errors will be ignored for this session
+1592508728139	Marionette	INFO	Stopped listening on port 36365
+1592508798309	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.i5a5mT8Cs24Y"
+1592508801490	Marionette	INFO	Listening on port 40667
+1592508801530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592508813448	Marionette	INFO	Stopped listening on port 40667
+1592508893542	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.09WQ5tY21Z79"
+1592508896645	Marionette	INFO	Listening on port 34499
+1592508896666	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592508909511	Marionette	INFO	Stopped listening on port 34499
+1592508985369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vUydzgDYBetp"
+1592508988489	Marionette	INFO	Listening on port 45613
+1592508988585	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592508996974	Marionette	INFO	Stopped listening on port 45613
+1592509077397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K4xtel4HL7Nu"
+1592509080608	Marionette	INFO	Listening on port 32855
+1592509080711	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509096480	Marionette	INFO	Stopped listening on port 32855
+1592509256417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M1SRGu6xJXwG"
+1592509259612	Marionette	INFO	Listening on port 41737
+1592509259640	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509271423	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uYKvdhCGWTch"
+1592509274501	Marionette	INFO	Listening on port 44389
+1592509274539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509279277	Marionette	INFO	Stopped listening on port 44389
+1592509281539	Marionette	INFO	Stopped listening on port 41737
+1592509460976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.b8DbYj37fdkU"
+1592509464202	Marionette	INFO	Listening on port 44237
+1592509464304	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509481982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2oHR1zOikkNW"
+1592509485051	Marionette	INFO	Listening on port 42183
+1592509485096	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509489214	Marionette	INFO	Stopped listening on port 42183
+1592509490058	Marionette	INFO	Stopped listening on port 44237
+1592509619521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DcQFuIiKvrVX"
+1592509622774	Marionette	INFO	Listening on port 46199
+1592509622837	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509624966	Marionette	INFO	Stopped listening on port 46199
+1592509818865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sIxQgDRFd4CY"
+1592509822084	Marionette	INFO	Listening on port 33755
+1592509822178	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509824131	Marionette	INFO	Stopped listening on port 33755
+1592509950547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CmuZ1RxZj1b1"
+1592509953940	Marionette	INFO	Listening on port 41245
+1592509953980	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509961616	Marionette	INFO	Stopped listening on port 41245
+1592509970558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.M1tzRHxmF0jO"
+1592509973765	Marionette	INFO	Listening on port 33455
+1592509973771	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592509978767	Marionette	INFO	Stopped listening on port 33455
+1592510051388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WjPy4jLiuwNj"
+1592510054567	Marionette	INFO	Listening on port 40083
+1592510054608	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510061542	Marionette	INFO	Stopped listening on port 40083
+1592510076403	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Fiv6bk2FF8el"
+1592510079552	Marionette	INFO	Listening on port 45379
+1592510079634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510087229	Marionette	INFO	Stopped listening on port 45379
+1592510391549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.K3D5KB1AzDM6"
+1592510395109	Marionette	INFO	Listening on port 39991
+1592510395161	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510402961	Marionette	INFO	Stopped listening on port 39991
+1592510500824	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.em0KzS76MxwB"
+1592510504148	Marionette	INFO	Listening on port 35155
+1592510504240	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510511857	Marionette	INFO	Stopped listening on port 35155
+1592510711865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2V2Pc9hF0jsV"
+1592510715044	Marionette	INFO	Listening on port 46387
+1592510715088	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510722149	Marionette	INFO	Stopped listening on port 46387
+1592510793649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.faidfcMmvqEd"
+1592510796766	Marionette	INFO	Listening on port 45389
+1592510796860	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://beneposto.pl/jqueryrotate/js/jQueryRotateCompressed.js, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: http://www.reciperoulette.tv/public/assets/js/custom.js, line 7: ReferenceError: FastClick is not defined
+JavaScript error: http://www.reciperoulette.tv/, line 189: ReferenceError: FastClick is not defined
+1592510804281	Marionette	INFO	Stopped listening on port 45389

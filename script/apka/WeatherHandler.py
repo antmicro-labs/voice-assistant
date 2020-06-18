@@ -8,9 +8,10 @@ class WeatherHandler:
     def getWeather(self):
         response = requests.get('http://api.openweathermap.org/data/2.5/weather?q=Wroclaw,pl&units=metric&appid=' + self.key)
         data = response.json()
-        temperature = 'Obecna temperatura w ' + data["name"] + ' wynosi ' + str(data["main"]["temp"]) + 'stopnie celcjusza. '
-        wind = 'Prędkość wiatru: ' + str(data["wind"]["speed"]) + ' metra na sekundę. '
-        pressure = 'Ciśnienie: ' + str(data["main"]["pressure"]) + ' hektopaskali. '
+        temperature = 'Current temperature in ' + data["name"] + ' is ' + str(data["main"]["temp"]) + 'degrees Celsius. '
+        wind = 'Wind speed: ' + str(data["wind"]["speed"]) + ' meters per second. '
+        pressure = 'Atmospheric pressure: ' + str(data["main"]["pressure"]) + ' hectopascals.'
         textReader(temperature + wind + pressure)
+        return None
         
 

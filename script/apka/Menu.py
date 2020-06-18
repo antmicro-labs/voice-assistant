@@ -3,7 +3,7 @@ from utils import textReader
 class Menu:
     def __init__(self):
         self.currOptionNum = 0
-        self.mainMenu = ['Odtwarzacz muzyki', 'Zobacz pogode', 'Sprawdź poczte']
+        self.mainMenu = ['Music player', 'Check emails', 'Find random recipe', 'Current weather']
 
     def readCurrOption(self):
         currOption = self.mainMenu[self.currOptionNum]
@@ -15,6 +15,6 @@ class Menu:
         self.readCurrOption()
 
     def chooseCurrOption(self):
-        choosenOption = 'Wybrano opcje, ' + self.mainMenu[self.currOptionNum]
+        choosenOption = 'You have chosen ' + self.mainMenu[self.currOptionNum]
         textReader(choosenOption)
         return self.mainMenu[self.currOptionNum]

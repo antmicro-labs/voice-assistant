@@ -35,19 +35,19 @@ class MailHandler:
         self.service = build('gmail', 'v1', credentials=creds)
 
     def getMails(self):
-        self.messages = self.service.users().messages().list(userId='lamazlo21@gmail.com', labelIds=['INBOX'], q='is:unread').execute()
+        self.messages = self.service.users().messages().list(userId='marzecki97@gmail.com', labelIds=['INBOX'], q='is:unread').execute()
         messagesCounter = 0
         for message in self.messages['messages']:
             messagesCounter += 1
-        text = 'Masz ' + str(messagesCounter) + ' nieodczytanych wiadomości, czy chcesz je usłyszeć?'
+        text = 'You\'ve got ' + str(messagesCounter) + ' unread messages, would you like to hear them?'
         textReader(text)
 
     def readMails(self):
-        messageSender = 'Wiadomość od użytkownika '
-        messageSubject = ', Temat wiadomości, '
+        messageSender = 'Message from '
+        messageSubject = ', Subject, '
         count = 0
         for i in range(self. offset, self.offset + 3):
-            msg = self.service.users().messages().get(userId='lamazlo21@gmail.com', id=self.messages['messages'][i]['id']).execute()
+            msg = self.service.users().messages().get(userId='marzecki97@gmail.com', id=self.messages['messages'][i]['id']).execute()
             data = msg['payload']['headers']
             for values in data:
                 if values['name'] == 'Subject':
@@ -57,10 +57,10 @@ class MailHandler:
                     messageSender += sender
             text = messageSender + messageSubject
             textReader(text)
-            messageSender = 'Wiadomość od użytkownika '
-            messageSubject = ', Temat wiadomości, '
+            messageSender = 'Message from '
+            messageSubject = ', Subject, '
             if count == 2:
-                text = 'Czy chcesz usłyszeć więcej wiadomości?'
+                text = 'would you like to hear more messages?'
                 textReader(text)
                 self.offset = self.offset + 3
                 break
