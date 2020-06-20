@@ -6,7 +6,7 @@ from WeatherHandler import WeatherHandler
 from URLHandler import URLHandler
 
 menu = Menu()
-mail = MailHandler()
+# mail = MailHandler()
 music = MusicHandler()
 weather = WeatherHandler()
 urlHandler = URLHandler()
@@ -19,6 +19,7 @@ choosenOption = None
 while True:
     out = process.stdout.readline()
     out = out.decode("utf-8").strip()
+    print("Incoming command: ", out)
     if choosenOption is None:
         if out == 'VA:CMD:GO':
             menu.readCurrOption()
@@ -67,11 +68,14 @@ while True:
 
     elif choosenOption == 'Check emails':
         if out == 'VA:CMD:GO':
-            mail.getMails()
+            # mail.getMails()
+            pass
 
         elif out == 'VA:CMD:YES':
-            mail.readMails()
+            # mail.readMails()
+            pass
 
         elif out == 'VA:CMD:NO':
-            choosenOption = mail.stopReading()
+            # choosenOption = mail.stopReading()
+            pass
         

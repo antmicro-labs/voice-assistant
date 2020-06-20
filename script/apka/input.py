@@ -1,13 +1,18 @@
-import time, sys
+import time
+import sys
 
-commands = ['VA:CMD:ON', 'VA:CMD:GO', 'VA:CMD:UP', 'VA:CMD:RIGHT', 'VA:CMD:STOP', 'VA:CMD:RIGHT', 'VA:CMD:ON', 'VA:CMD:GO', 'VA:CMD:NO', 'VA:CMD:RIGHT', 'VA:CMD:ON', 'VA:CMD:GO', 'VA:CMD:RIGHT', 'VA:CMD:ON', 'VA:CMD:GO']
+commands = [('VA:CMD:ON', 3),
+            ('VA:CMD:GO', 5),
+            ('VA:CMD:UP', 5),
+            ('VA:CMD:DOWN', 5),
+            ('VA:CMD:RIGHT', 10),
+            ('VA:CMD:STOP', 3),
+            ('VA:CMD:RIGHT', 5),
+            ('VA:CMD:ON', 5),
+            ('VA:CMD:GO', 100)]
 
-i = 0
-while i < len(commands):
-    print(commands[i])
+time.sleep(5)
+for command in commands:
+    print(command[0])
     sys.stdout.flush()
-    #a little workaround for now:
-    if i == 11:
-        time.sleep(10)
-    time.sleep(5)
-    i += 1
+    time.sleep(command[1])

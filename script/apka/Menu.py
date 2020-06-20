@@ -3,7 +3,7 @@ from utils import textReader
 class Menu:
     def __init__(self):
         self.currOptionNum = 0
-        self.mainMenu = ['Music player', 'Check emails', 'Find random recipe', 'Current weather']
+        self.mainMenu = ['Music player', 'Current weather', 'Check emails', 'Find random recipe']
 
     def readCurrOption(self):
         currOption = self.mainMenu[self.currOptionNum]

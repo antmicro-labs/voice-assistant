@@ -1,11 +1,11 @@
 from pygame import mixer
 
-songs = ['music/Guilt.mp3', 'music/This Is What It Feels Like.mp3']
+songs = ['music/mozart_40_g.oga', 'music/bethoven_5th.ogg']
 
 class MusicHandler:
     def __init__(self):
         self.currentlyPlaying = 0
-        self.currentVolume = 0.3
+        self.currentVolume = 0.1
         mixer.init()
         mixer.music.set_volume(self.currentVolume)
 
@@ -18,13 +18,13 @@ class MusicHandler:
         return None
 
     def volumeUp(self):
-        self.currentVolume += 0.5
+        self.currentVolume += 0.8
         if self.currentVolume > 1.0:
             self.currentVolume = 1.0
         mixer.music.set_volume(self.currentVolume)
 
     def volumeDown(self):
-        self.currentVolume -= 0.5
+        self.currentVolume -= 0.8
         if self.currentVolume < 0.0:
             self.currentVolume = 0.0
         mixer.music.set_volume(self.currentVolume)
